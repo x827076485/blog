@@ -105,12 +105,12 @@ title: 我的Blog
 							<article class="post">
 								<header>
 									<div class="title">
-									<ul>
+									
 									{% for post in site.posts %}
-										<li><h2><a href="{{ site.baseurl }}{{ post.url }}">我的第一篇博客，关于php</a></h2></li>
+										<h2><a href="{{ site.baseurl }}{{ post.url }}">我的第一篇博客，关于php</a></h2>
 										{% endfor %}
 										<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
-										</ul>
+										
 									</div>
 									<div class="meta">
 										<time class="published" datetime="2015-11-01">November 1, 2015</time>
