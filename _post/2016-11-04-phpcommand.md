@@ -71,4 +71,3 @@ Java代码
 php -S localhost:8081 localhost:8081 -t ./ <br/>
 在xxxxx目录创建端口。S为大写 <br/>
 php -S localhost:8081 localhost:8081 -t E:/xxxx/xxx <br/></p>
-<p>{{ page.date | date_to_string }}</p>

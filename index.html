@@ -106,9 +106,9 @@ title: 我的Blog
 								<header>
 									<div class="title">
 									{% for post in site.posts %}
-										<h2>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}我的第一篇博客关于php</a></h2>
-										<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
+										<h2><a href="{{site.baseurl}}{{post.url}}">我的第一篇博客，关于php</a></h2>
 										{% endfor %}
+										<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
 									</div>
 									<div class="meta">
 										<time class="published" datetime="2015-11-01">November 1, 2015</time>
